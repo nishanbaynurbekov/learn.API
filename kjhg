@@ -1,0 +1,38 @@
+
+ let time = 0
+
+function setNumber(){
+    time++
+    number.innerHTML = time
+}
+
+incrementBtn.onclick = setNumber
+
+function getout(){
+    if( time > 0){
+     time--;   
+    number.innerHTML = time 
+    }
+}
+decrementBtn.onclick = getout
+
+function nol(){
+   time = 0
+
+    number.innerHTML = time
+}
+resetBtn.onclick = nol
+
+function koboyt(){
+    number.innerHTML= time  *= 5
+}
+multBtn.onclick = koboyt
+
+ function divi (){
+    let san = prompt("сан жазаңыз")
+    number.innerHTML = time /= san
+}
+
+division.onclick = divi
+
+ 
