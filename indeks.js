@@ -94,13 +94,6 @@ const button = document.querySelector(".button")
       
     }
  }
- like_btn = 0
-   async function like(id) {
- button.innerHTML = <div>
-   <button onclick="openModal('${item.id}')" id="btn_update">UPDATE</button> 
-        <button onclick="like('${item.id}')" id="like_btn">🤍</button>
-         <button onclick="deleteProduct('${item.id}')" id="btn_delete">DELETE</button>
- </div>
-}
+ 
 
  
